@@ -1,0 +1,23 @@
+/*
+* @Author: baby
+* @Date:   2016-03-05 11:11:09
+* @Last Modified by:   baby
+* @Last Modified time: 2016-03-05 13:18:19
+*/
+.box {
+	width: 1190px;
+	margin: 0 auto;
+}
+#btn {
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	display: none;
+	left: 50%;
+	margin-left: 610px;
+	bottom: 30px;
+	background: url('./images/top_bg.png') no-repeat left top;
+}
+#btn:hover {
+	background: url('./images/top_bg.png') no-repeat left -40px;
+}
